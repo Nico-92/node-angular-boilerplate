@@ -14,7 +14,7 @@ var gulp = require('gulp'),
     "bower_components/angular-google-maps/dist/angular-google-maps.js",
     "bower_components/angular-cookie/angular-cookie.js"
   ],
-  //appFiles = ["views/app.js", "views/**/*.js"],
+  appFiles = ["views/app.js", "views/**/*.js"],
   jsFiles = _.union(bowerFiles, appFiles);
 
 var swallowError = function(error) {
